@@ -84,7 +84,7 @@ public class Yandex {
     }
         public void ValidElements(String listOfElements,String valPrice,String minvalue,String maxvalue){
             JavascriptExecutor js = (JavascriptExecutor) dr;
-            js.executeScript("window.scrollBy(0,12000)");
+            js.executeScript("window.scrollBy(0,13000)");
 
             List <WebElement> LenovoLaptops = dr.findElements(By.xpath(listOfElements)).stream().collect(Collectors.toList());
             List <WebElement> validPrice = dr.findElements(By.xpath(valPrice)).stream().collect(Collectors.toList());
